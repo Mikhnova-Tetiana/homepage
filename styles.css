@@ -52,7 +52,7 @@ body {
 
 @media screen and (max-width: 576px) {
   .main-info,
-  .skills__wrapper {
+  .skills__wrapper 
   .contact_info_container {
     flex-direction: column;
   }
@@ -288,6 +288,7 @@ body {
   text-align: center;
   margin-bottom: 20px;
 }
+
 .hobbies-intrests__list {
   list-style-type: none;
   margin: 0;
