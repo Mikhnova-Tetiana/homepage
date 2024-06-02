@@ -52,6 +52,7 @@ body {
 
 @media screen and (max-width: 576px) {
   .main-info,
+  .skills__wrapper {
   .contact_info_container {
     flex-direction: column;
   }
@@ -105,15 +106,12 @@ body {
   justify-content: start;
 }
 
-.contact-info__item:not(:last-child) {
-  margin-bottom: 20px;
-}
-
 .contact-info__item-icon-wrapper {
   margin-right: 10px;
   width: 20px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .contact-info__item-icon path {
@@ -161,7 +159,20 @@ body {
   color: var(--secondary-text-color);
   text-align: justify;
 }
-
+.skills__soft-skills {
+  flex: 1 1 60%;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+.skills__hard-skills {
+  flex: 1 1 40%;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+.skills__soft-skills h4,
+.skills__hard-skills h4 {
+  margin-bottom: 10px;
+}
 .skills__header {
   color: var(--secondary-text-color);
   text-align: center;
@@ -202,7 +213,6 @@ body {
 }
 
 .experiences__company-project {
-  margin-left: 15px;
   margin-bottom: 25px;
 }
 
@@ -237,6 +247,9 @@ body {
   text-align: left;
   margin-bottom: 20px;
 }
+.additional-info__education-university {
+  margin-bottom: 20px;
+}
 
 .additional-info__education-university-durability {
   color: var(--durability-text-color);
@@ -267,4 +280,16 @@ body {
 
 .additional-info__languages-item {
   color: var(--secondary-text-color);
+}
+
+/* ----------------- Hobbies and intrests styles ----------------- */
+.hobbies-intrests__header {
+  color: var(--secondary-text-color);
+  text-align: center;
+  margin-bottom: 20px;
+}
+.hobbies-intrests__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
