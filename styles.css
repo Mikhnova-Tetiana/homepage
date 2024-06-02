@@ -52,8 +52,8 @@ body {
 
 @media screen and (max-width: 576px) {
   .main-info,
-  .contact_info_container,
   .skills__wrapper {
+  .contact_info_container {
     flex-direction: column;
   }
 
@@ -173,7 +173,6 @@ body {
 .skills__hard-skills h4 {
   margin-bottom: 10px;
 }
-
 .skills__header {
   color: var(--secondary-text-color);
   text-align: center;
