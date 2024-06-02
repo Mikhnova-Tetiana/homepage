@@ -218,7 +218,6 @@ body {
 }
 
 .experiences__company-project {
-  /* margin-left: 15px; */
   margin-bottom: 25px;
 }
 
@@ -286,4 +285,16 @@ body {
 
 .additional-info__languages-item {
   color: var(--secondary-text-color);
+}
+
+/* ----------------- Hobbies and intrests styles ----------------- */
+.hobbies-intrests__header {
+  color: var(--secondary-text-color);
+  text-align: center;
+  margin-bottom: 20px;
+}
+.hobbies-intrests__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
